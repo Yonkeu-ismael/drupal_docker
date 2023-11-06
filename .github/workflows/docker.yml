@@ -27,7 +27,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./docker-compose.yml
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/drupal:latest
 
