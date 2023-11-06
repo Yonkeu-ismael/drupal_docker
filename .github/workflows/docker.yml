@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: dockerhubyonkeu/drupal
+          tags: drupal
 
       - name: Deploy to Docker
         run: |
