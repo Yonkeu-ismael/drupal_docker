@@ -19,3 +19,6 @@ services:
       - MYSQL_USER=user_drupal
       - MYSQL_PASSWORD=mdp_drupal
       - MYSQL_ROOT_PASSWORD=root
+dns:
+  - 8.8.8.8
+  - 9.9.9.9
