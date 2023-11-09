@@ -3,7 +3,7 @@ name: Docker Pipeline
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     paths:
       - docker-compose.yml
