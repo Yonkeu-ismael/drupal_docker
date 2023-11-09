@@ -7,7 +7,7 @@ WORKDIR /var/www/html
 
 # Copiez les fichiers de configuration de Drupal
 COPY ./web/sites/default/settings.php /var/www/html/sites/default/settings.php
-COPY ./web/sites/default/services.yml /var/www/html/sites/default/services.yml
+#COPY ./web/sites/default/services.yml /var/www/html/sites/default/services.yml
 
 # Exposez le port 80 pour accéder à l'application
 EXPOSE 80
